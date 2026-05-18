@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+
+# Node
+node_modules/
+dist/
+
+# Local configuration
+.env
+.env.local
+
+# Local application data
+backend/data/*
+!backend/data/.gitkeep
+!backend/data/uploads/
+backend/data/uploads/*
+!backend/data/uploads/.gitkeep
+!backend/data/chroma/
+backend/data/chroma/*
+!backend/data/chroma/.gitkeep
+
+plan/
